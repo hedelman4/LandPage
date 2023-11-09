@@ -28,5 +28,6 @@
 ## js
 <p>Dynamic functionality and user interaction include the following items</p>
 <ul>
-    <li></li>
+    <li>Change background color for mouseover section options in navigation bar</li>
+    <li>Activate and highlight visible section as user scrolls page</li>
 </ul>
