@@ -10,7 +10,7 @@
 ## html
 <p>General page layout structured with the following sections in mind:</p>
 <ul>
-    <li>Overall containert</li>
+    <li>Overall container</li>
     <li>Navigation Bar</li>
     <li>Header</li>
     <li>Content sections</li>
@@ -28,6 +28,7 @@
 ## js
 <p>Dynamic functionality and user interaction include the following items</p>
 <ul>
+    <li>Dynamically build navigation bar with unordered list</li>
     <li>Change background color for mouseover section options in navigation bar</li>
     <li>Activate and highlight visible section as user scrolls page</li>
 </ul>

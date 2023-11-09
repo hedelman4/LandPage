@@ -43,6 +43,21 @@
     align-items: center;
 }
 
+html {
+    zoom: 130%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -55,14 +70,10 @@ section {
     background-color: rgb(20, 44, 72);
 }
 
-@media(min-width:1200px) {
-    .container {
-        display:grid;
-        grid-template-areas:
-        "navbar navbar"
-        "header header"
-        "section section"
-        "section section";
+@media(max-width:500px) {
+    #navbar {
+        display:flex;
         border: 1px solid black;
+        justify-content: space-between;
     }
 }
