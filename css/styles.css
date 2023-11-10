@@ -3,10 +3,10 @@
     grid-template-areas:
     "navbar"
     "header"
-    "section"
-    "section"
-    "section"
-    "section"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
     "footer";
     border: 1px solid black;
 }
@@ -44,7 +44,7 @@
 }
 
 html {
-    zoom: 130%;
+    zoom: 100%;
 }
 
 ul {
@@ -68,6 +68,7 @@ section {
     color: white;
     border: 1px solid grey;
     background-color: rgb(20, 44, 72);
+    height: 500px;
 }
 
 @media(max-width:500px) {
